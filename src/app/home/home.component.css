@@ -1,20 +1,38 @@
 .home-container {
-    background-image: url('/../../building.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Full viewport height */
-    width: 100%;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    color: white; /* Text color */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better readability */
+  background-image: url('/../../building.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  color: white; /* Text color */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better readability */
+}
+
+img {
+  width: 26%;
+}
+
+p {
+  margin-left: 20px; /* Adjust the value to move the text as needed */
+}
+
+@media (max-width: 767px)
+ {
+  .home-container {
+    /* Adjust height for mobile devices */
+    height: 68vh; /* or any other desired height */
   }
-  img{
-    width: 26%;
-  }
-  p {
-    margin-left: 20px; /* Adjust the value to move the text as needed */
-  }
-  
+}
+.paragraph-container {
+  background-color: rgba(249, 249, 249, 0.7); /* Semi-transparent background */
+  border: 1px solid rgba(221, 221, 221, 0.7); /* Semi-transparent border */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}.paragraph-container {
+  padding: 15px;
+}
