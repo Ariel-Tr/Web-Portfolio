@@ -1,0 +1,42 @@
+.photo-container {
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .interests-grid {
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .interest-item {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Grid for larger screens */
+  @media (min-width: 768px) {
+    .interests-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Grid for smaller screens */
+  @media (max-width: 767px) {
+    .interests-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

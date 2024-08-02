@@ -14,10 +14,10 @@ export class ProjectsComponent implements OnInit {
       link: 'http://link-to-project1.com'
     },
     {
-      title: 'Project 2',
-      description: 'Description of project 2',
-      image: 'path/to/image2.jpg',
-      link: 'http://link-to-project2.com'
+      title: 'Encryption algorythms Project',
+      description: 'a Python based encryption script with a GUI',
+      image: './images.jpeg',
+      link: './Encryption.zip'
     }
     // Add more projects here
   ];

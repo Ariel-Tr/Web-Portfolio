@@ -1,0 +1,17 @@
+.home-container {
+    background-image: url('/../../building.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    color: white; /* Text color */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better readability */
+  }
+  img{
+    width: 26%;
+  }
+  
