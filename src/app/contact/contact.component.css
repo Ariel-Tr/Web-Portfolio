@@ -1,0 +1,9 @@
+email{
+    align-self: auto;
+    color: black; 
+    text-decoration: none;
+}
+email:hover, email:focus {
+    color: inherit; /* Change color on hover or focus if desired */
+    text-decoration: underline; /* Optionally, add underline on hover/focus */
+  }

@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   downloadFile() {
-    const fileUrl = 'assets/resume.pdf'; // Path to your file in the assets directory
-    const fileName = 'resume.pdf'; // Desired file name
+    const fileUrl = './Ariël R CV.pdf'; // Path to your file in the assets directory
+    const fileName = 'Ariël R. Truter CV.pdf'; // Desired file name
 
     // Create an anchor element and trigger the download
     const link = document.createElement('a');
