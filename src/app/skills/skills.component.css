@@ -1,0 +1,73 @@
+.skills-container {
+    padding: 20px;
+  }
+  
+  .skill-group {
+    margin-bottom: 40px;
+  }
+  
+  .skill-group h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  .skill-item img {
+    width: 100px; /* Adjust the size of the icons */
+    height: 100px; /* Ensure the icons are square */
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Responsive Grid */
+  @media (min-width: 768px) {
+    .skill-group {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .skill-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
