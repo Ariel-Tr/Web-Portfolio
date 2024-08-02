@@ -24,15 +24,6 @@ p {
  {
   .home-container {
     /* Adjust height for mobile devices */
-    height: 68vh; /* or any other desired height */
+    height: 74vh; /* or any other desired height */
   }
-}
-.paragraph-container {
-  background-color: rgba(249, 249, 249, 0.7); /* Semi-transparent background */
-  border: 1px solid rgba(221, 221, 221, 0.7); /* Semi-transparent border */
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}.paragraph-container {
-  padding: 15px;
 }

@@ -9,7 +9,7 @@ export class ProjectsComponent implements OnInit {
   projects = [
     {
       title: 'Encryption algorythms Project',
-      description: 'a Python based encryption script with a GUI',
+      description: 'a Python based encryption script',
       image: './images.jpeg',
       link: './Encryption.zip'
     }
