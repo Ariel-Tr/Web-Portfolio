@@ -14,4 +14,7 @@
   img{
     width: 26%;
   }
+  p {
+    margin-left: 20px; /* Adjust the value to move the text as needed */
+  }
   

@@ -19,11 +19,35 @@
     background-position: center;
     color: white;
     padding: 20px;
-    height: 200px;
+    height: 300px; /* Adjust height as needed */
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center text alignment */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hover effect */
+  .interest-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow */
+  }
+  
+  .interest-item::after {
+    content: "";
+    position: absolute;
+    top: var(--y, 50%);
+    left: var(--x, 50%);
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255, 255, 255, 0.1), transparent 60%);
+    transition: opacity 0.3s;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
   }
   
   /* Grid for larger screens */
