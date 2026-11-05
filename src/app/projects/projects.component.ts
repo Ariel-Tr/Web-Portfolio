@@ -10,8 +10,8 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Encryption algorythms Project',
       description: 'a Python based encryption script',
-      image: './images.jpeg',
-      link: './Encryption.zip'
+      image: 'images.jpeg',
+      link: 'Encryption.zip'
     }
     // Add more projects here
   ];

@@ -1,5 +1,5 @@
 .home-container {
-  background-image: url('/../../building.JPG');
+  background-image: url('../../../public/building.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
